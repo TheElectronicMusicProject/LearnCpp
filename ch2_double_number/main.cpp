@@ -1,3 +1,9 @@
+/**
+ * @file    main.cpp
+ * @author  Filippo Graziani
+ * @brief   From "2.4 — Introduction to function parameters and arguments"
+ */
+
 #include <iostream>
 
 static int

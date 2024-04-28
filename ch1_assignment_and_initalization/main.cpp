@@ -1,3 +1,9 @@
+/**
+ * @file    main.cpp
+ * @author  Filippo Graziani
+ * @brief   From "1.4 — Variable assignment and initialization"
+ */
+
 #include <iostream>
 
 int

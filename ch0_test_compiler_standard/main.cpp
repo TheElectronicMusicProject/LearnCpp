@@ -1,4 +1,11 @@
+/**
+ * @file    main.cpp
+ * @author  Filippo Graziani
+ * @brief   From "0.13 — What language standard is my compiler using?"
+ */
+
 #include <iostream>
+#include <limits>
 #include <stdint.h>
 
 const int32_t g_num_standards(7);
@@ -49,6 +56,20 @@ main ()
 
     std::cout << std::endl;
 
+#if 0
+    // Reset any error flags.
+    //
+    std::cin.clear();
+
+    // Ignore any characters in the input buffer until we find an enter
+    // character.
+    //
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+    // Get one more char from the user.
+    //
+    std::cin.get();
+#endif
     return (0);
 }   /* main() */
 

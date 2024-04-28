@@ -1,3 +1,9 @@
+/**
+ * @file    main.cpp
+ * @author  Filippo Graziani
+ * @brief   From "2.8 — Programs with multiple code files"
+ */
+
 #include <iostream>
 #include "get_int.h"
 

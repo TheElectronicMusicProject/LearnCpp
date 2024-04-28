@@ -1,3 +1,9 @@
+/**
+ * @file    main.cpp
+ * @author  Filippo Graziani
+ * @brief   From "1.11 — Developing your first program"
+ */
+
 #include <iostream>
 
 int
