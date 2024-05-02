@@ -13,10 +13,10 @@ OBJ= main.o
 all: main
 
 main: $(OBJ)
-	$(CC) $(CFLAGS) -o main $(OBJ)
+	$(CC) $(CCFLAGS) -o main $(OBJ)
 
 main.o: main.cpp
-	$(CC) $(CFLAGS) -c main.cpp
+	$(CC) $(CCFLAGS) -c main.cpp
 
 clean:
 	rm -f main

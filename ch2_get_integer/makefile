@@ -13,10 +13,10 @@ OBJ= main.o get_int.o
 all: main
 
 main: $(OBJ)
-	$(CC) $(CFLAGS) -o main $(OBJ)
+	$(CC) $(CCFLAGS) -o main $(OBJ)
 
 main.o: main.cpp
-	$(CC) $(CFLAGS) -c main.cpp get_int.cpp
+	$(CC) $(CCFLAGS) -c main.cpp get_int.cpp
 
 clean:
 	rm -f main
