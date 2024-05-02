@@ -1,7 +1,7 @@
 /**
  * @file    main.cpp
  * @author  Filippo Graziani
- * @brief   From "2.12 — Variable assignment and initialization"
+ * @brief   From "2.12 — Header guards"
  */
 
 #include <iostream>
