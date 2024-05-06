@@ -19,7 +19,7 @@
  * console.
  * To use the breakpoint on a watched variable, you should firstly use `print
  * &<variable>` and then copy the address and use it with watch (break when a
- * write occurs), rwatch (break when a read occurs), awatch (brak in both
+ * write occurs), rwatch (break when a read occurs), awatch (break in both
  * cases).
  */
 
