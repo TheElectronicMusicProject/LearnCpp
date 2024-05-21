@@ -53,7 +53,8 @@ getApplesPluralized (int n_apple)
     }
 }   /* getApplesPluralized() */
 
-int main()
+int
+main ()
 {
     constexpr int maryApples { 3 };
     std::cout << "Mary has " << getQuantityPhrase(maryApples) << ' '
@@ -67,4 +68,7 @@ int main()
               << getApplesPluralized(numApples) << ".\n";
 
     return 0;
-}
+}   /* main() */
+
+
+/*** End of file ***/
